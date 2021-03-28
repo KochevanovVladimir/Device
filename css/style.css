@@ -1,0 +1,45 @@
+/*FONTS*/
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroylight"),
+       url("../fonts/Gilroylight.woff2") format("woff2"),
+       url("../fonts/Gilroylight.woff") format("woff"),
+       url("../fonts/OpenSans-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+font-family: "Gilroy";
+src: local("Gilroyextrabold"),
+     url("../fonts/Gilroyextrabold.woff2") format("woff2"),
+     url("../fonts/Gilroyextrabold.woff") format("woff"),
+     url("../fonts/Gilroyextrabold.ttf") format("ttf");
+font-weight: 800;
+font-style: normal;
+}
+
+@font-face {
+font-family: "OpenSans";
+src: local("OpenSans"),
+     url("../fonts/open-sans-light.woff2") format("woff2"),
+     url("../fonts/open-sans-light.woff") format("woff"),
+     url("../fonts/OpenSans-Light.ttf") format("ttf");
+font-weight: 300;
+font-style: normal;
+}
+
+/*VARIABLES*/
+
+:root {
+  --basic-black: #000000;
+  --basic-dark: #363636;
+  --basic-grey: #464646;
+  --basic-half-gray: #7E7E7E;
+  --basic-gray-light: #E5E5E5;
+  --basic-black: #ffffff;
+  --special-yellow: #F7E296;
+  --special-yellow-dark: #F0C52E;
+  --special-green: #91C92F;
+}
